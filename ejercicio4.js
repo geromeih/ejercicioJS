@@ -97,21 +97,64 @@ btnHormiga.addEventListener('click',rtaHormiga)
 
 //ejercicio 38
 
-const imgT = document.querySelector('img')
-const img1 = document.getElementById('imagenP')
-const img2 = document.getElementById('imagen2')
-const img3 = document.getElementById('imagen3')
-const img4 = document.getElementById('imagen4')
-const img5 = document.getElementById('imagen5')
+let img1 = document.getElementById('imagenP')
+let img2 = document.getElementById('imagen2')
+let img3 = document.getElementById('imagen3')
+let img4 = document.getElementById('imagen4')
+let img5 = document.getElementById('imagen5')
 
 
 const verImg1 = () =>{
   console.log('entra')
+    img1.style.height = "500px" 
+    img2.style.height = "100px" 
+    img3.style.height = "100px" 
+    img4.style.height = "100px" 
+    img5.style.height = "100px" 
+
 }
 
-//img1.addEventListener('click',verImg1)
-//img2.addEventListener('click',verImg1)
-//cimg1.addEventListener('click',verImg1)
+const verImg2 = () =>{
+  console.log('entra')
+    img1.style.height = "100px" 
+    img2.style.height = "500px" 
+    img3.style.height = "100px" 
+    img4.style.height = "100px" 
+    img5.style.height = "100px" 
+
+}
+const verImg3 = () =>{
+  console.log('entra')
+    img1.style.height = "100px" 
+    img2.style.height = "100px" 
+    img3.style.height = "500px" 
+    img4.style.height = "100px" 
+    img5.style.height = "100px" 
+
+}
+const verImg4 = () =>{
+  console.log('entra')
+    img1.style.height = "100px" 
+    img2.style.height = "100px" 
+    img3.style.height = "100px" 
+    img4.style.height = "400px" 
+    img5.style.height = "100px" 
+
+}
+const verImg5 = () =>{
+  console.log('entra')
+    img1.style.height = "100px" 
+    img2.style.height = "100px" 
+    img3.style.height = "100px" 
+    img4.style.height = "100px" 
+    img5.style.height = "500px" 
+
+}
+img1.addEventListener('click',verImg1)
+img2.addEventListener('click',verImg2)
+img3.addEventListener('click',verImg3)
+img4.addEventListener('click',verImg4)
+img5.addEventListener('click',verImg5)
 
 //Ejercicio 39
 
